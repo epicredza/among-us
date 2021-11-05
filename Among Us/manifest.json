@@ -1,0 +1,31 @@
+{
+"manifest_version": 3,
+    "name": "Among Us",
+    "description": "Makes the internet a little more sussy!",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "action": {
+    "default_icon": {
+      "16": "/images/among_us16.png",
+      "32": "/images/among_us32.png",
+      "48": "/images/among_us48.png",
+      "128": "/images/among_us128.png"
+    }
+  },
+    "icons": {
+      "16": "/images/among_us16.png",
+      "32": "/images/among_us32.png",
+      "48": "/images/among_us48.png",
+      "128": "/images/among_us128.png"
+  }
+}

@@ -1,0 +1,1 @@
+This capitalises every instance of the phrase 'Among Us'.
